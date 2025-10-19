@@ -32,3 +32,27 @@
 // Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 // bonus write unit tests for each function
+
+
+function sum(numbersArray) {
+  let total = 0;
+  let x;
+
+  for (x of numbersArray){
+
+    total = total + x.number
+
+    
+  }
+   return total;
+}
+ console.log(sum([[{number: 1}, {number: 2}, {number: 3}]]))
+
+
+ 
+ function addCarParts(a, b) {
+    return a + b;
+
+}
+
+console.log(addCarParts(1, 2))

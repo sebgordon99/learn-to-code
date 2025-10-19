@@ -25,5 +25,8 @@
   },
   "directories": {
     "test": "tests"
+  },
+  "dependencies": {
+    "sentiment": "^5.0.2"
   }
 }
