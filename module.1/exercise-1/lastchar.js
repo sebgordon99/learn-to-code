@@ -1,19 +1,18 @@
 function removeLastChar(str) {
-
-let newletters = ""
-
-for (let i = 0; i < str.length - 1; i++){
-
-newletters += str[i]
-
+  // input: abcde
+  // output: abcd
+  //   return str.slice(0, -1);
+  //loop
+  //   let newStr = "";
+  //   for (let i = 0; i < str.length - 1; i++) {
+  //     console.log(i, str[i], char);
+  //     newStr += str[i] + char;
+  //   }
+  //   return newStr;
+  // }
+  return str.slice(0, -1);
 }
 
-return newletters
+const newValue = removeLastChar("abcd"); // "Hello!"
 
-}
-    //input: abcde
-    //output: abcd
-
-console.log(removeLastChar("abcde"))
-
-
+console.log(newValue); // "Hello!"
